@@ -1,5 +1,4 @@
 import React from 'react';
-import itemList from '../item-list/item-list';
 import { 
     withData, 
     withSwapiService,

@@ -12,7 +12,7 @@ const withData = (View) => {
     };
   
     componentDidUpdate(prevProps) {
-      if (this.props.getData ==! prevProps.getData) {
+      if (this.props.getData ===! prevProps.getData) {
         this.update();
       }
     }
