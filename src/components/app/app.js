@@ -18,7 +18,7 @@ export default class App extends Component {
   swapiService = new SwapiService();
 
   state = {
-    swapiService: new SwapiService
+    swapiService: new SwapiService()
   };
 
   onServiceChange = () => {
