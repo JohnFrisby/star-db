@@ -49,12 +49,7 @@ export default class App extends Component {
               <Route path="/"
                 render={() => <h2>Welcome to StarDB</h2>}
                 exact />
-              <Route path="/people" exact component={PeoplePage} />
-              <Route path="/people/:id"
-                render={({ match }) => {
-                  const { id } = match.params;
-                  return <PersonDetails itemId={id} />
-                }} />
+              <Route path="/people/:id?" exact component={PeoplePage} />
               <Route path="/planet" component={PlanetPage} />
               <Route path="/starships" exact component={StarshipPage} />
               <Route path="/starships/:id"
