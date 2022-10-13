@@ -5,7 +5,6 @@ import RandomPlanet from '../random-planet';
 import ErrorBoundry from '../error-boundry';
 import SwapiService from '../../services/swapi-service';
 import DummySwapiService from '../../services/dummy-swapi-service';
-import PersonDetails from '../sw-components/person-details';
 
 import { PeoplePage, PlanetPage, StarshipPage} from '../pages';
 
